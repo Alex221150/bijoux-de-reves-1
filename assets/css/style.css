@@ -1,0 +1,10 @@
+ul {
+    text-transform: uppercase;
+}
+
+.header{
+    background-color: rgb(2, 1, 61);
+    background-color: var(--bs-indigo);
+    background-color: rgb(2, 1, 61);
+    color: white;
+}

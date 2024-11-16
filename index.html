@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue chez Bijoux de Reves</title>
+    <!-- lien pour l'icone sur le titre de la page -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/logo2.jpg">
+    <!-- lien css et css de bootstrap -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
+</head>
+<body>
+
+<!-- BARRE DE NAVIGATION -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+        <!-- Logo à gauche -->
+        <a class="navbar-brand ms-5" href="index.html">
+            <img src="/assets/img/logo3.jpg" alt="logo de bijoux de reves" class="img-fluid" width="90px" height="90px" style="border-radius: 50%;">
+        </a>
+
+        <!-- Bouton pour les petits écrans -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Liens de navigation à droite -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item me-5 ms-5">
+                    <a class="nav-link active" aria-current="page" href="#articles">Articles</a>
+                </li>
+                <li class="nav-item me-5 ms-5">
+                    <a class="nav-link" href="#commander">Commander</a>
+                </li>
+                <li class="nav-item me-5 ms-5">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- BARRE DE NAVIGATION -->
+
+
+<!-- partie header -->
+<section class="header text-center p-4">
+    <div class="container">
+        <span>
+            Bienvenue sur notre plateforme ! Découvrez des offres exclusives et restez à jour avec nos nouveautés bientôt.
+            Rejoignez notre communauté en un clic pour accéder à des avantages réservés à nos membres.
+        </span>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Souscrire
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog text-dark">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Devenez Membre</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        En souscrivant, vous bénéficierez de :
+                        <ul>
+                            <li>Des offres exclusives chaque mois</li>
+                            <li>Des conseils personnalisés pour optimiser votre expérience</li>
+                            <li>Un accès prioritaire aux nouveautés et promotions</li>
+                        </ul>
+                        <p>
+                            Rejoignez-nous dès maintenant pour ne rien manquer !
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <!-- <button type="button" class="btn btn-primary">Je m'inscris</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- partie header -->
+
+
+<!-- CAROUSEL -->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/img/home-slider-9.png" class="d-block w-100" alt="Photos de nos home slider" width="100%" height="450px">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/img/home-slider-7.png" class="d-block w-100" alt="Photos de nos home slider" width="100%" height="450px">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/img/home-slider-9.png" class="d-block w-100" alt="Photos de nos home slider" width="100%" height="450px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- CAROUSEL -->
+
+<!-- Main section -->
+<section class="main-page py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="/assets/img/fiancaille.jpg" class="img-fluid" alt="Une bague en or 18k">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="p-4">Bienvenue chez Bijoux de Rêves by Rasamoelson Nadia</h1>
+                <p class="p-4">
+                    Bienvenue chez Bijoux de Rêves, votre destination pour des créations uniques. Découvrez un de notre bague de fiançailles en or 18k, symbole d'amour éternel, disponible à partir de 1 100 000 Ar. Célébrez vos moments inoubliables avec élégance.
+                </p>
+                <form class="p-4">
+                    <div class="input-group mb-3">
+                        <input type="email"
+                        class="form-control"
+                        placeholder="Adresse email"
+                        aria-label="Adresse email"
+                        aria-describedby="Email help">
+                        <button class="input-group-text btn btn-primary">S'inscrire</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Main section -->
+
+
+<!-- ARTICLES -->
+<div class="container mt-5 mb-5">
+<h2 id="articles">Quelques uns de nos articles</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="article-img">
+            <img src="/assets/img/bracelet.jpg" class="img-fluid"  alt="Nos articles">
+        </div>
+        <p>Bracelet en Or 18k , motif style pandora ,Taille: 15cm à 17cm , acompte de reservation 50% , 2 300 000 MGA , paiement à 0 34 27 931 88 (ou à récuperer a malaza andoharanofotsy)</p>
+    </div>
+    <div class="col-md-4">
+        <div class="article-img">
+            <img src="/assets/img/bague-or.jpg" class="img-fluid"  alt="Nos articles">
+        </div>
+        <p>Bague en Or 18k , motif avec grenat , Taille : 49 à 60 , acompte de reservation 50% , 850 000 MGA , paiement à 0 34 27 931 88 (ou à récuperer a malaza andoharanofotsy)</p>
+    </div>
+    <div class="col-md-4">
+        <div class="article-img">
+            <img src="/assets/img/boucles-or.jpg" class="img-fluid"  alt="Nos articles">
+        </div>
+        <p>Boucle en Or 18k , style pas de vice , 15cm à 17cm : acompte de reservation 50% , 250 000 MGA /paire , paiement à 0 34 27 931 88 (ou à récuperer a malaza andoharanofotsy)</p>
+    </div>
+</div>
+</div>
+<!-- ARTICLES -->
+
+<!-- A PROPOS -->
+<div class="container mt-4 mb-4" id="about">
+    <h2>À propos de Bijoux de Rêves by Rasamoelson Nadia</h2>
+    <p>
+        Bijoux de Rêves est une boutique de bijouterie située à Malaza Andoharanofotsy, entre le supermarché 
+        SUPER MAKI et la banque BFV SG, en face de l'église protestante FJKM MALAZA GILEADA. Fondée en 2015 
+        par RASAMOELSON HARINOSY Nadia, elle est mère de deux enfants, Kael et Karen, et vit aujourd'hui avec 
+        son époux et sa famille.
+    </p>
+    <p>
+        Issue d'une famille de classe moyenne, Nadia a deux sœurs et un frère : Estelle, Naelle Alexia et Alex 
+        Anthony.
+    </p>
+    <p>
+        Nos services : Vente de bijoux en or 18k (et plus) et bijoux en argent, achat d'or 18k testé à 220 000 
+        MGA/g, transformation de l'or 18k pour 20 000 MGA par gramme, ainsi que des transformations en argent. 
+        Livraison partout à Antananarivo à partir de 3 000 MGA, et possibilité de livraison en province et à 
+        l'international (France, Suisse, Allemagne, etc.). Retrouvez-nous sur notre page Facebook : Bijoux de 
+        Rêves by Nadia 2.0, ou contactez-nous au : 0342793188.
+    </p>
+</div>
+
+<!-- A PROPOS -->
+
+<!-- COMMANDER -->
+<!-- SECTION COMMANDER -->
+<div class="container mt-4 mb-4" id="commander">
+    <h2>Comment Commander</h2>
+    <p>
+        Commander chez <strong>Bijoux de Rêves</strong> est simple et rapide. Voici les étapes pour acquérir nos magnifiques bijoux en or 18 carats ou en argent :
+    </p>
+    <ol>
+        <li>
+            <strong>Sélection de l'article :</strong> Parcourez notre collection et choisissez le bijou qui vous plaît. Assurez-vous de vérifier les tailles et les options disponibles pour chaque article.
+        </li>
+        <li>
+            <strong>Réservation et acompte :</strong> Pour garantir la disponibilité de votre bijou, un acompte de 50% est requis. Ce paiement peut être effectué directement par téléphone via notre service de transfert mobile au numéro <strong>034 27 931 88</strong>.
+        </li>
+        <li>
+            <strong>Confirmation :</strong> Une fois l'acompte reçu, nous vous enverrons une confirmation de commande avec les détails nécessaires, y compris les instructions de retrait ou de livraison.
+        </li>
+        <li>
+            <strong>Livraison :</strong> Nous proposons une livraison à Antananarivo (3 000 à 5 000 MGA) et sur la périphérie (10 000 MGA pour les zones éloignées). Pour les commandes en province ou à l’international (France, Suisse, Allemagne, etc.), nous collaborons avec des transporteurs fiables pour un service sécurisé.
+        </li>
+    </ol>
+    <p>
+        Pour toute question ou pour passer commande, n'hésitez pas à nous contacter via notre page Facebook <a href="https://www.facebook.com/profile.php?id=61563445990955">Bijoux de Rêves by Nadia 2.0</a> ou directement au <strong>034 27 931 88</strong>.
+    </p>
+</div>
+<!-- SECTION COMMANDER -->
+
+<!-- COMMANDER -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+
+</body>
+</html>
